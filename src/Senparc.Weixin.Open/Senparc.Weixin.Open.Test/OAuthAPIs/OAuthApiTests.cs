@@ -15,11 +15,11 @@ namespace Senparc.Weixin.Open.OAuthAPIs.Tests
         [TestMethod()]
         public void GetAuthorizeUrlTest()
         {
-            var returnUrl = "http://sdk.weixin.senparc.com?a=1&b=a";
+            var returnUrl = "http://zs.sasu.edu.cn?a=1&b=a";
             var result = OAuthAPIs.OAuthApi.GetAuthorizeUrl("appId", "componentAppId", returnUrl, "Jeffrey Su", new[] { OAuthScope.snsapi_userinfo });
 
             Console.WriteLine(result);
-            Assert.IsTrue(result.Contains("redirect_uri=http%3A%2F%2Fsdk.weixin.senparc.com%3Fa%3D1%26b%3Da"));
+            Assert.IsTrue(result.Contains("redirect_uri=http%3A%2F%2Fzs.sasu.edu.cn%3Fa%3D1%26b%3Da"));
 
         }
     }

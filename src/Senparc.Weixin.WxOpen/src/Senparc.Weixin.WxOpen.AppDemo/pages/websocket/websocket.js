@@ -40,7 +40,7 @@ Page({
 
     //连接 Websocket
     wx.connectSocket({
-      url: 'wss://sdk.weixin.senparc.com/SenparcWebSocket',
+      url: 'wss://zs.sasu.edu.cn/SenparcWebSocket',
       header:{ 
         'content-type': 'application/json'
       },

@@ -43,7 +43,7 @@ namespace Senparc.Weixin.MP.Sample.CommonService.CustomMessageHandler
 还可以点击菜单体验微信支付。
 
 SDK官方地址：https://weixin.senparc.com
-SDK Demo：http://sdk.weixin.senparc.com
+SDK Demo：http://zs.sasu.edu.cn
 源代码及Demo下载地址：https://github.com/JeffreySu/WeiXinMPSDK
 Nuget地址：https://www.nuget.org/packages/Senparc.Weixin.MP
 QQ群：342319110
@@ -51,9 +51,9 @@ QQ群：342319110
 ===============
 更多：
 
-1、JSSDK测试：http://sdk.weixin.senparc.com/WeixinJSSDK
+1、JSSDK测试：http://zs.sasu.edu.cn/WeixinJSSDK
 
-2、开放平台测试（建议PC上打开）：http://sdk.weixin.senparc.com/OpenOAuth/JumpToMpOAuth
+2、开放平台测试（建议PC上打开）：http://zs.sasu.edu.cn/OpenOAuth/JumpToMpOAuth
 
 3、回复关键字：
 
@@ -146,8 +146,8 @@ QQ群：342319110
                         {
                             Title = "您点击了子菜单图文按钮",
                             Description = "您点击了子菜单图文按钮，这是一条图文信息。这个区域是Description内容\r\n可以使用\\r\\n进行换行。",
-                            PicUrl = "http://sdk.weixin.senparc.com/Images/qrcode.jpg",
-                            Url = "http://sdk.weixin.senparc.com"
+                            PicUrl = "http://zs.sasu.edu.cn/Images/qrcode.jpg",
+                            Url = "http://zs.sasu.edu.cn"
                         });
 
                         //随机添加一条图文，或只输出一条图文信息
@@ -157,8 +157,8 @@ QQ群：342319110
                             {
                                 Title = "这是随机产生的第二条图文信息，用于测试多条图文的样式",
                                 Description = "这是随机产生的第二条图文信息，用于测试多条图文的样式",
-                                PicUrl = "http://sdk.weixin.senparc.com/Images/qrcode.jpg",
-                                Url = "http://sdk.weixin.senparc.com"
+                                PicUrl = "http://zs.sasu.edu.cn/Images/qrcode.jpg",
+                                Url = "http://zs.sasu.edu.cn"
                             });
                         }
                     }
@@ -174,8 +174,8 @@ QQ群：342319110
                         reponseMessage = strongResponseMessage;
                         strongResponseMessage.Music.Title = "天籁之音";
                         strongResponseMessage.Music.Description = "真的是天籁之音";
-                        strongResponseMessage.Music.MusicUrl = "http://sdk.weixin.senparc.com/Content/music1.mp3";
-                        strongResponseMessage.Music.HQMusicUrl = "http://sdk.weixin.senparc.com/Content/music1.mp3";
+                        strongResponseMessage.Music.MusicUrl = "http://zs.sasu.edu.cn/Content/music1.mp3";
+                        strongResponseMessage.Music.HQMusicUrl = "http://zs.sasu.edu.cn/Content/music1.mp3";
                         strongResponseMessage.Music.ThumbMediaId = uploadResult.thumb_media_id;
                     }
                     break;
@@ -222,16 +222,16 @@ QQ群：342319110
                         {
                             Title = "OAuth2.0测试",
                             Description = "选择下面两种不同的方式进行测试，区别在于授权成功后，最后停留的页面。",
-                            //Url = "http://sdk.weixin.senparc.com/oauth2",
-                            //PicUrl = "http://sdk.weixin.senparc.com/Images/qrcode.jpg"
+                            //Url = "http://zs.sasu.edu.cn/oauth2",
+                            //PicUrl = "http://zs.sasu.edu.cn/Images/qrcode.jpg"
                         });
 
                         strongResponseMessage.Articles.Add(new Article()
                         {
                             Title = "OAuth2.0测试（不带returnUrl），测试环境可使用",
                             Description = "OAuth2.0测试（不带returnUrl）",
-                            Url = "http://sdk.weixin.senparc.com/oauth2",
-                            PicUrl = "http://sdk.weixin.senparc.com/Images/qrcode.jpg"
+                            Url = "http://zs.sasu.edu.cn/oauth2",
+                            PicUrl = "http://zs.sasu.edu.cn/Images/qrcode.jpg"
                         });
 
                         var returnUrl = "/OAuth2/TestReturnUrl";
@@ -239,8 +239,8 @@ QQ群：342319110
                         {
                             Title = "OAuth2.0测试（带returnUrl），生产环境强烈推荐使用",
                             Description = "OAuth2.0测试（带returnUrl）",
-                            Url = "http://sdk.weixin.senparc.com/oauth2?returnUrl=" + returnUrl.UrlEncode(),
-                            PicUrl = "http://sdk.weixin.senparc.com/Images/qrcode.jpg"
+                            Url = "http://zs.sasu.edu.cn/oauth2?returnUrl=" + returnUrl.UrlEncode(),
+                            PicUrl = "http://zs.sasu.edu.cn/Images/qrcode.jpg"
                         });
 
                         reponseMessage = strongResponseMessage;

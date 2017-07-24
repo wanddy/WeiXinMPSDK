@@ -54,13 +54,13 @@ namespace Senparc.Weixin.MP.Test
       <Title><![CDATA[您刚才发送了图片信息]]></Title>
       <Description><![CDATA[您发送的图片将会显示在边上]]></Description>
       <PicUrl><![CDATA[http://mmsns.qpic.cn/mmsns/ZxBXNzgHyUrDziagRXm6xU54o2gzuaLvibZOMWvgcpSCuYsic2xicVcoCA/0]]></PicUrl>
-      <Url><![CDATA[http://sdk.weixin.senparc.com]]></Url>
+      <Url><![CDATA[http://zs.sasu.edu.cn]]></Url>
     </item>
     <item>
       <Title><![CDATA[第二条]]></Title>
       <Description><![CDATA[第二条带连接的内容]]></Description>
       <PicUrl><![CDATA[http://mmsns.qpic.cn/mmsns/ZxBXNzgHyUrDziagRXm6xU54o2gzuaLvibZOMWvgcpSCuYsic2xicVcoCA/0]]></PicUrl>
-      <Url><![CDATA[http://sdk.weixin.senparc.com]]></Url>
+      <Url><![CDATA[http://zs.sasu.edu.cn]]></Url>
     </item>
   </Articles>
   <FuncFlag>0</FuncFlag>
@@ -75,7 +75,7 @@ namespace Senparc.Weixin.MP.Test
   <Music>
     <Title><![CDATA[标题]]></Title>
     <Description><![CDATA[说明]]></Description>
-    <MusicUrl><![CDATA[http://sdk.weixin.senparc.com/Content/music1.mp3]]></MusicUrl>
+    <MusicUrl><![CDATA[http://zs.sasu.edu.cn/Content/music1.mp3]]></MusicUrl>
     <HQMusicUrl><![CDATA[]]></HQMusicUrl>
   </Music>
  <FuncFlag>0</FuncFlag>
@@ -129,7 +129,7 @@ namespace Senparc.Weixin.MP.Test
                                                                         {
                                                                             Title = "标题",
                                                                             Description = "说明",
-                                                                            MusicUrl = "http://sdk.weixin.senparc.com/Content/music1.mp3",
+                                                                            MusicUrl = "http://zs.sasu.edu.cn/Content/music1.mp3",
                                                                             HQMusicUrl = ""
                                                                         },
                                                             CreateTime = DateTimeHelper.GetDateTimeFromXml(63497823450),

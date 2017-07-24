@@ -71,7 +71,7 @@ namespace Senparc.Weixin.MP.Test.CommonAPIs
             });
             subButton.sub_button.Add(new SingleViewButton()
             {
-                url = "http://sdk.weixin.senparc.com",
+                url = "http://zs.sasu.edu.cn",
                 name = "Url跳转"
             });
             subButton.sub_button.Add(new SingleLocationSelectButton()

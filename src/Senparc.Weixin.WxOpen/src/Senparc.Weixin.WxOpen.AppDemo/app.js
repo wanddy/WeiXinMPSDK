@@ -16,7 +16,7 @@ App({
         success: function (res) {
           //换取openid & session_key
           wx.request({
-            url: 'https://sdk.weixin.senparc.com/WxOpen/OnLogin',
+            url: 'https://zs.sasu.edu.cn/WxOpen/OnLogin',
             method: 'POST',
             data: {
               code: res.code
@@ -36,7 +36,7 @@ App({
 
                     //校验
                     wx.request({
-                      url: 'https://sdk.weixin.senparc.com/WxOpen/CheckWxOpenSignature',
+                      url: 'https://zs.sasu.edu.cn/WxOpen/CheckWxOpenSignature',
                       method: 'POST',
                       data: {
                         sessionId: wx.getStorageSync('sessionId'),
@@ -50,7 +50,7 @@ App({
 
                     //解密数据（建议放到校验success回调函数中，此处仅为演示）
                     wx.request({
-                      url: 'https://sdk.weixin.senparc.com/WxOpen/DecodeEncryptedData',
+                      url: 'https://zs.sasu.edu.cn/WxOpen/DecodeEncryptedData',
                       method: 'POST',
                       data: {
                         'type':"userInfo",

@@ -16,7 +16,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort>65335</IISExpressSSLPort>
+    <IISExpressSSLPort>44329</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
     <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
@@ -250,6 +250,9 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <None Include="Properties\PublishProfiles\freexia - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\freexia - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\zjc.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Images\book-cover-front-small-3d.png" />
     <Content Include="Images\book-cover-front-small.png" />
@@ -334,13 +337,13 @@
     <Content Include="Views\OpenOAuth\OpenOAuthCallback.cshtml" />
     <Content Include="Views\OpenOAuth\Index.cshtml" />
     <Content Include="Views\OpenOAuth\UserInfoCallback.cshtml" />
-    <Content Include="Views\Cache\Test.cshtml" />
     <Content Include="Views\Document\Index.cshtml" />
     <Content Include="Views\AsyncMethods\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\Document\Files\" />
     <Folder Include="App_Data\OpenTickets\" />
+    <Folder Include="Views\Cache\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

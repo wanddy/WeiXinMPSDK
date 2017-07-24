@@ -34,7 +34,7 @@ namespace Senparc.Weixin.MP.Sample.CommonService.TemplateMessage.WxOpen
             string orderNumber, decimal orderPrice, string hotLine,
             string url,
             //
-            string templateId = "PZfsad7ijpwmqS1f9UDHW8ZBzXT69mKdzLR9zCFBD-E")
+            string templateId = "DjhXr20ZtTN-n_q0AHo16czx3BiGzzQMNPNFtO6R_iw")
             : base(templateId, url, "购买成功通知")
         {
             /* 

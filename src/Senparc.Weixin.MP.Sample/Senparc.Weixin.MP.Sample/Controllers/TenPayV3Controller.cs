@@ -76,7 +76,7 @@ namespace Senparc.Weixin.MP.Sample.Controllers
         /// <returns></returns>
         public ActionResult Index(int productId = 0, int hc = 0)
         {
-            var returnUrl = string.Format("http://sdk.weixin.senparc.com/TenPayV3/JsApi");
+            var returnUrl = string.Format("http://zs.sasu.edu.cn/TenPayV3/JsApi");
             var state = string.Format("{0}|{1}", productId, hc);
             var url = OAuthApi.GetAuthorizeUrl(TenPayV3Info.AppId, returnUrl, state, OAuthScope.snsapi_userinfo);
 
@@ -763,7 +763,7 @@ public ActionResult Refund()
                 return Content("商品信息不存在，或非法进入！2004");
             }
 
-            var url = string.Format("http://sdk.weixin.senparc.com/TenPayV3/JsApi?productId={0}&hc={1}&t={2}", productId,
+            var url = string.Format("http://zs.sasu.edu.cn/TenPayV3/JsApi?productId={0}&hc={1}&t={2}", productId,
                 product.GetHashCode(), DateTime.Now.Ticks);
 
             BitMatrix bitMatrix;

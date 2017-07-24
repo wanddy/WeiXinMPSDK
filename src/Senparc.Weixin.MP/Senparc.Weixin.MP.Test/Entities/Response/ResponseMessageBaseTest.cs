@@ -187,7 +187,7 @@ namespace Senparc.Weixin.MP.Test.Entities.Response
   <Music>
     <Title><![CDATA[标题]]></Title>
     <Description><![CDATA[描述]]></Description>
-    <MusicUrl><![CDATA[http://sdk.weixin.senparc.com/Content/music1.mp3]]></MusicUrl>
+    <MusicUrl><![CDATA[http://zs.sasu.edu.cn/Content/music1.mp3]]></MusicUrl>
     <HQMusicUrl><![CDATA[]]></HQMusicUrl>
   </Music>
   <FuncFlag>0</FuncFlag>
@@ -199,7 +199,7 @@ namespace Senparc.Weixin.MP.Test.Entities.Response
                 Assert.AreEqual("gh_a96a4a619366", strongResponseMessage.FromUserName);
                 Assert.AreEqual("标题", strongResponseMessage.Music.Title);
                 Assert.AreEqual("描述", strongResponseMessage.Music.Description);
-                Assert.AreEqual("http://sdk.weixin.senparc.com/Content/music1.mp3", strongResponseMessage.Music.MusicUrl);
+                Assert.AreEqual("http://zs.sasu.edu.cn/Content/music1.mp3", strongResponseMessage.Music.MusicUrl);
                 Assert.AreEqual("", strongResponseMessage.Music.HQMusicUrl);
             }
             #endregion
@@ -217,8 +217,8 @@ namespace Senparc.Weixin.MP.Test.Entities.Response
     <item>
       <Title><![CDATA[您点击了子菜单图文按钮]]></Title>
       <Description><![CDATA[您点击了子菜单图文按钮，这是一条图文信息。]]></Description>
-      <PicUrl><![CDATA[http://sdk.weixin.senparc.com/Images/qrcode.jpg]]></PicUrl>
-      <Url><![CDATA[http://sdk.weixin.senparc.com]]></Url>
+      <PicUrl><![CDATA[http://zs.sasu.edu.cn/Images/qrcode.jpg]]></PicUrl>
+      <Url><![CDATA[http://zs.sasu.edu.cn]]></Url>
     </item>
   </Articles>
   <FuncFlag>0</FuncFlag>

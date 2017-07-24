@@ -116,7 +116,7 @@ namespace Senparc.Weixin.MP.Test
 <MsgType><![CDATA[link]]></MsgType>
 <Title><![CDATA[公众平台官网链接]]></Title>
 <Description><![CDATA[Senparc.Weixin.MP SDK公众平台官网链接]]></Description>
-<Url><![CDATA[http://sdk.weixin.senparc.com]]></Url>
+<Url><![CDATA[http://zs.sasu.edu.cn]]></Url>
 <MsgId>1234567890123456</MsgId>
 </xml>";
 
@@ -192,7 +192,7 @@ namespace Senparc.Weixin.MP.Test
   <CreateTime>1394805110</CreateTime>
   <MsgType><![CDATA[event]]></MsgType>
   <Event><![CDATA[VIEW]]></Event>
-  <EventKey><![CDATA[http://sdk.weixin.senparc.com]]></EventKey>
+  <EventKey><![CDATA[http://zs.sasu.edu.cn]]></EventKey>
 </xml>
 ";
 
@@ -526,7 +526,7 @@ namespace Senparc.Weixin.MP.Test
                 Assert.AreEqual("gh_a96a4a619366", result.ToUserName);
                 Assert.AreEqual("公众平台官网链接", result.Title);
                 Assert.AreEqual("Senparc.Weixin.MP SDK公众平台官网链接", result.Description);
-                Assert.AreEqual("http://sdk.weixin.senparc.com", result.Url);
+                Assert.AreEqual("http://zs.sasu.edu.cn", result.Url);
             }
 
             {
@@ -602,7 +602,7 @@ namespace Senparc.Weixin.MP.Test
                 Assert.AreEqual("gh_a96a4a619366", result.ToUserName);
                 Assert.AreEqual(Event.VIEW, result.Event);
                 Assert.AreEqual(new DateTime(2014, 3, 14), result.CreateTime.Date);
-                Assert.AreEqual("http://sdk.weixin.senparc.com", result.EventKey);
+                Assert.AreEqual("http://zs.sasu.edu.cn", result.EventKey);
             }
             
             {

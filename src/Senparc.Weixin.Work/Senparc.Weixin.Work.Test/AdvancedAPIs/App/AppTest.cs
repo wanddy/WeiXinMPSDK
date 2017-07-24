@@ -125,7 +125,7 @@ namespace Senparc.Weixin.Work.Test.AdvancedAPIs
                 //logo_mediaid = "1muvdK7W8cjLfNqj0hWP89-CEhZNOVsktCE1JHSTSNpzTf7cGOXyDin_ozluwNZqi",
                 name = "单元测试添加" + DateTime.Now.ToString("yyMMddHHMM"),
                 description = "test",
-                redirect_domain = "https://sdk.weixin.senparc.com",
+                redirect_domain = "https://zs.sasu.edu.cn",
                 //isreportenter = 0,
                 isreportuser = 1,
                 home_url = "weixin.senparc.com"

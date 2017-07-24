@@ -23,7 +23,7 @@ Page({
   doRequest:function(){
     var that = this;
     wx.request({
-      url: 'https://sdk.weixin.senparc.com/WxOpen/RequestData',
+      url: 'https://zs.sasu.edu.cn/WxOpen/RequestData',
       data: { nickName : that.data.userInfo.nickName},
       method: 'POST', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
       // header: {}, // 设置请求的 header
@@ -59,7 +59,7 @@ Page({
         });
 
         wx.request({
-          url: 'https://sdk.weixin.senparc.com/WxOpen/TemplateTest',
+          url: 'https://zs.sasu.edu.cn/WxOpen/TemplateTest',
           data: submitData,
           method: 'POST', 
           success: function(res){

@@ -26,8 +26,7 @@ namespace Senparc.Weixin.MP.Sample
             //  url: "SenparcWebSocket",
             //  defaults: new { controller = "SenparcWebSocket", action = "SenparcWebSocket" }
             //);
-
-
+           
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

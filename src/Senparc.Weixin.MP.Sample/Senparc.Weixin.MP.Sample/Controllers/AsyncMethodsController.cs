@@ -66,7 +66,7 @@ namespace Senparc.Weixin.MP.Sample.Controllers
                     keyword1 = new TemplateDataItem(openId),
                     keyword2 = new TemplateDataItem("网页测试"),
                     keyword3 = new TemplateDataItem(DateTime.Now.ToString("O")),
-                    remark = new TemplateDataItem("更详细信息，请到Senparc.Weixin SDK官方网站（http://sdk.weixin.senparc.com）查看！")
+                    remark = new TemplateDataItem("更详细信息，请到Senparc.Weixin SDK官方网站（http://zs.sasu.edu.cn）查看！")
                 };
 
                 var result = await TemplateApi.SendTemplateMessageAsync(appId, openId, templateId, null, testData);
