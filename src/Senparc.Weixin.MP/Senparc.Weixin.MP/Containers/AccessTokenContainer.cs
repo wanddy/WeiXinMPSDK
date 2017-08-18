@@ -65,6 +65,12 @@ Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
 
     修改标识：Senparc - 20170702
     修改描述：v14.5.0 为了配合新版本ApiHandlerWapper方法，GetAccessTokenResultAsync方法的返回值从Task<AccessTokenResult>改为Task<IAccessTokenResult>
+    
+    修改标识：Senparc - 20170702
+    修改描述：v14.5.5 修改Container中的锁及异步调用方法
+
+    修改标识：Senparc - 20170702
+    修改描述：v14.6.2 回滚 v14.5.5中修改的方法（同步方法中调用异步方法）
 
 ----------------------------------------------------------------*/
 
@@ -292,3 +298,4 @@ namespace Senparc.Weixin.MP.Containers
         #endregion
     }
 }
+

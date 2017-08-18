@@ -1,4 +1,23 @@
-﻿
+﻿#region Apache License Version 2.0
+/*----------------------------------------------------------------
+
+Copyright 2017 Jeffrey Su & Suzhou Senparc Network Technology Co.,Ltd.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
+except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the
+License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+either express or implied. See the License for the specific language governing permissions
+and limitations under the License.
+
+Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
+
+----------------------------------------------------------------*/
+#endregion Apache License Version 2.0
+
 /*----------------------------------------------------------------
     Copyright (C) 2017 Senparc
 
@@ -7,6 +26,9 @@
 
 
     创建标识：Senparc - 20170629
+
+    修改标识：Senparc - 20170726
+    修改描述：完成接口开放平台-代码管理及小程序码获取
     
 ----------------------------------------------------------------*/
 
@@ -32,6 +54,7 @@ namespace Senparc.Weixin.Open.WxaAPIs
         /// <param name="accessToken"></param>
         /// <param name="appId">授权公众号或小程序的appid</param>
         /// <returns></returns>
+        [Obsolete("此方法已过期，请使用Senparc.Weixin.Open.MpAPIs.Open.Create()方法")]
         public static CreateJsonResult CreateTester(string accessToken, string appId)
         {
             var urlFormat = "https://api.weixin.qq.com/cgi-bin/open/create?access_token={0}";
@@ -87,6 +110,7 @@ namespace Senparc.Weixin.Open.WxaAPIs
         /// <param name="accessToken"></param>
         /// <param name="appId">授权公众号或小程序的appid</param>
         /// <returns></returns>
+        [Obsolete("此方法已过期，请使用Senparc.Weixin.Open.MpAPIs.Open.Get()方法")]
         public static GetJsonResult GetTester(string accessToken, string appId)
         {
             var urlFormat = "https://api.weixin.qq.com/cgi-bin/open/get?access_token={0}";
@@ -105,6 +129,7 @@ namespace Senparc.Weixin.Open.WxaAPIs
         /// <param name="accessToken"></param>
         /// <param name="appId">授权公众号或小程序的appid</param>
         /// <returns></returns>
+        [Obsolete("此方法已过期，请使用Senparc.Weixin.Open.MpAPIs.Open.CreateAsync()方法")]
         public static async Task<CreateJsonResult> CreateTesterAsync(string accessToken, string appId)
         {
             var urlFormat = "https://api.weixin.qq.com/cgi-bin/open/create?access_token={0}";
@@ -159,6 +184,7 @@ namespace Senparc.Weixin.Open.WxaAPIs
         /// <param name="accessToken"></param>
         /// <param name="appId">授权公众号或小程序的appid</param>
         /// <returns></returns>
+        [Obsolete("此方法已过期，请使用Senparc.Weixin.Open.MpAPIs.Open.GetAsync()方法")]
         public static async Task<GetJsonResult> GetTesterAsync(string accessToken, string appId)
         {
             var urlFormat = "https://api.weixin.qq.com/cgi-bin/open/get?access_token={0}";
